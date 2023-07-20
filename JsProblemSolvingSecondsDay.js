@@ -1,21 +1,21 @@
-// const str = "I love Bangladesh";
+const str = "I love Bangladesh";
 
-// // output = "hdgkfsdhfgjkahsd"
+// output = "hdgkfsdhfgjkahsd"
 
-// function reverseWords(data){
-//     const dataAsArray = data.split(" ");
-//     const result = dataAsArray.map((d)=>{
-//         return d.split("").reverse().join("");
+function reverseWords(data){
+    const dataAsArray = data.split(" ");
+    const result = dataAsArray.map((d)=>{
+        return d.split("").reverse().join("");
 
-//     })
+    })
 
-//     return result.join(" ");
-
-
-// }
+    return result.join(" ");
 
 
-// console.log(reverseWords(str));
+}
+
+
+console.log(reverseWords(str));
 
 const string =" Java Is a Programming Language"
 
@@ -29,7 +29,6 @@ function shortWords (data){
     return dataAsArrays.join(" ");
 
 }
-
 
 console.log(shortWords(string))
 
